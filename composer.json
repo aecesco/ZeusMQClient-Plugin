@@ -1,0 +1,6 @@
+{
+    "require": 
+    {
+        "zeusmqclient/zeusmqclient": "^2.0"
+    }
+}

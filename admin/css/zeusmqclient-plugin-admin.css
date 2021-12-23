@@ -1,0 +1,51 @@
+.zeusmqclient-plugin-textfield {
+  font: 1em;
+  height: 35px !important;
+  padding: 0.5em;
+  width: 50%;
+}
+
+@media only screen and (max-width: 960px) {
+  .zeusmqclient-plugin-textfield {
+    width: 100%;
+  }
+}
+
+.zeusmqclient-plugin-fieldset {
+  margin-bottom: 1em;
+}
+
+.zeusmqclient-plugin-fieldset label,
+.zeusmqclient-plugin-fieldset input[type="text"],
+.zeusmqclient-plugin-fieldset input[type="password"],
+.zeusmqclient-plugin-fieldset input[type="number"] {
+  display: block;
+}
+
+.zeusmqclient-plugin-fieldset label {
+  margin-bottom: 1em;
+}
+
+.zeusmqclient-plugin-fieldset label.inline {
+  display: inline;
+}
+
+.zeusmqclient-plugin-fieldset input {
+  margin-top: 0.25em;
+}
+
+.zeusmqclient-plugin-radio-fieldset input[type="radio"] {
+  position: relative;
+  bottom: 2px;
+}
+
+.zeusmqclient-plugin-radio-fieldset .radio-wrapper {
+  margin-bottom: 1em;
+}
+
+.zeusmqclient-plugin-form .submit {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
